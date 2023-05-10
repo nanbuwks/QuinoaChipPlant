@@ -2107,7 +2107,7 @@
     (property "Value" "LED" (at 158.115 135.255 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 151.13 134.62 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (at 151.13 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 134.62 0)
