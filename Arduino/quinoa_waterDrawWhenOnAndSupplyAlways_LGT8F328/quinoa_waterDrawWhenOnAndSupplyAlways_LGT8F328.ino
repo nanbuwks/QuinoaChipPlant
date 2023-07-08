@@ -81,13 +81,14 @@ void dummy()
 
   Serial.println("給水");
   digitalWrite(PUMP0_PIN, 1);
-  delay(3000);
+  delay(60000);
   digitalWrite(PUMP0_PIN, 0);
-      
+/*
   Serial.println("排水");
   digitalWrite(PUMP1_PIN, 0);
   delay(3000);
   digitalWrite(PUMP1_PIN, 1);
+*/
 }
 void loop(){
   
