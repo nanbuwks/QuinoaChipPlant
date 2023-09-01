@@ -1,10 +1,29 @@
-
+/* Version 202304
 #define PUMP0_PIN 27
 #define PUMP1_PIN 26
 #define FAN_PIN 22
 #define BEEP_PIN 2
 #define WATERSENSOR_PIN 25
 #define BEEP
+*/
+
+
+/* Version 202304 */
+#define PUMP0_PIN 25
+#define PUMP1_PIN 26
+#define BULB0_PIN 27
+#define BULB1_PIN 14
+#define BULB2_PIN 13
+#define BULB3_PIN 21
+#define GROVE0_PIN 22
+#define GROVE1_PIN 39         // VN input only
+#define BEEP_PIN 2
+#define WATERSENSOR0_PIN 34
+#define WATERSENSOR0_PIN 35
+#define WATERSENSOR0_PIN 32
+#define WATERSENSOR0_PIN 33   
+#define BEEP
+#define SW_THERMISTOR_PIN A0  // VP input only
 
 void beep(int millis) {
   Serial.printf("beep:%d", millis);
